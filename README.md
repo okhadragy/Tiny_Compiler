@@ -1,82 +1,74 @@
-🧾 Tiny Compiler (C#)
+# 🧾 Tiny Compiler (C#)
 
-A simple, educational Tiny Compiler built using C#, designed to help understand the core phases of compilation including lexical analysis, parsing, and syntax tree generation.
+A simple, educational **Tiny Compiler** built using **C#**, designed to help understand the core phases of compilation including lexical analysis, parsing, and syntax tree generation.
 
-🚀 Features
+---
 
-Lexical Analyzer (Tokenizer)
+## 🚀 Features
 
-Recursive Descent Parser
+* Lexical Analyzer (Tokenizer)
+* Recursive Descent Parser
+* Syntax Tree Generation
+* Error Handling and Reporting
+* Clean separation of compiler phases
+* Educational and well-commented code structure
 
-Syntax Tree Generation
+---
 
-Error Handling and Reporting
+## 🧱 Tech Stack
 
-Clean separation of compiler phases
+* **Language**: C#
+* **IDE**: Visual Studio
+* **Platform**: .NET Framework / .NET Core
 
-Educational and well-commented code structure
+---
 
-🧱 Tech Stack
+## 📂 Compiler Phases Implemented
 
-Language: C#
+1. **Lexical Analysis**
 
-IDE: Visual Studio
+   * Converts source code into a stream of tokens
+   * Handles identifiers, numbers, keywords, symbols, etc.
 
-Platform: .NET Framework / .NET Core
+2. **Syntax Analysis (Parsing)**
 
-📂 Compiler Phases Implemented
+   * Uses recursive descent parsing techniques
+   * Constructs a syntax tree
+   * Validates grammar rules
 
-Lexical Analysis
+3. **Error Reporting**
 
-Converts source code into a stream of tokens
+   * Detailed syntax error messages
+   * Token position and type tracking
+  
+---
 
-Handles identifiers, numbers, keywords, symbols, etc.
+## 🖼️ System Screenshots
 
-Syntax Analysis (Parsing)
+![Form](https://github.com/user-attachments/assets/674a718c-5f7c-46e0-8171-c54a397f0b45)
 
-Uses recursive descent parsing techniques
+---
 
-Constructs a syntax tree
+## ⚙️ How to Run
 
-Validates grammar rules
+1. **Clone the Repository**
 
-Error Reporting
+   ```bash
+   git clone https://github.com/your-username/tiny-compiler.git
+   cd tiny-compiler
+   ```
 
-Detailed syntax error messages
+2. **Open in Visual Studio**
 
-Token position and type tracking
+   * Open the `TinyCompiler.sln` file in Visual Studio.
 
-⚙️ How to Run
+3. **Build and Run**
 
-Clone the Repository
+   * Press `Ctrl + F5` to build and run the project.
+   * Enter sample source code and view output tokens and parse results.
 
-git clone https://github.com/your-username/Tiny_compiler.git
-cd tiny-compiler
+---
 
-Open in Visual Studio
-
-Open the TINY_Compiler.sln file in Visual Studio.
-
-Build and Run
-
-Press Ctrl + F5 to build and run the project.
-
-Enter sample source code and view output tokens and parse results.
-
-💡 Example Input
-
-int x = 5 + 3;
-
-Output:
-
-Token Stream:
-
-int, identifier(x), =, number(5), +, number(3), ;
-
-Parse Tree:
-
-Visual or printed tree depending on implementation
-
-📜 License
+## 📜 License
 
 This project is open-source and available under the MIT License.
